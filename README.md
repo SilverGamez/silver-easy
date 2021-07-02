@@ -6,7 +6,7 @@ Silver-easy is a npm package made by SilverGamez_3 (SilverGamez#6333) that mades
 ## Installation
 
 You must have [Node.js](https://nodejs.org/en/) installed.
-NPM page: https://www.npmjs.com/package/silver-easy
+\nNPM page: https://www.npmjs.com/package/silver-easy
 
 ```bash
 npm i silver-easy
