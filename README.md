@@ -9,6 +9,8 @@ You must have [Node.js](https://nodejs.org/en/) installed.
 
 NPM page: https://www.npmjs.com/package/silver-easy
 
+WARNING: .xp() and .level() will not work if you are on any free hosting sites.
+
 ```bash
 npm i silver-easy
 ```
@@ -46,9 +48,29 @@ Warning: If you get a error saying "cannot send empty message", its fine. There 
 ### .chatBot()
 
 ```js
+//this should be in your message event
 const SilverEasy = require('silver-easy');
 
 SilverEasy.chatBot(message, 'CHANNEL ID') //replace 'CHANNEL ID' with the channels id you want your chatbot to be responding in
 ```
 #### Preview
 ![github-small](https://cdn.discordapp.com/attachments/860380499792494632/860381102140031016/unknown.png)
+
+### .xp()
+
+```js
+const SilverEasy = require('silver-easy');
+//this should be in your message event
+
+SilverEasy.xp(message, 'MAX NUMBER', 'MIN NUMBER') //replace max number with the max amount of xp a user can get and you can replace min number with the min amount of xp a user can get
+```
+
+### .level()
+
+```js
+const SilverEasy = require('silver-easy');
+
+SilverEasy.level(message, userID); //the default userID will be message.author.id and will send a embed
+```
+#### Preview
+![github-small](https://cdn.discordapp.com/attachments/860380499792494632/860404718596259840/unknown.png)
