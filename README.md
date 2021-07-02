@@ -35,27 +35,18 @@ const emojiArray = ['◀️', '▶️']; //this is the default but you can chang
 require('discord-buttons')(client);
 require('discord-slider')(client);
 
-SilverEasy.buttonMenu(message, userid, embedArray, emojiArray);
+SilverEasy.buttonMenu(message, userid, embedArray, emojiArray); //this will create the message with buttons.
 ```
+Warning: If you get a error saying "cannot send empty message", its fine. There isnt a way i know to fix it.
+#### Preview
+![github-small](https://cdn.discordapp.com/attachments/860380499792494632/860380523084120104/buttonmenu.png)
 
-### .reactionMenu()
+### .chatBot()
 
 ```js
 const SilverEasy = require('silver-easy');
-const Discord = require('discord.js');
 
-const embed1 = new Discord.MessageEmbed().setTitle('Page one');
-const embed2 = new Discord.MessageEmbed().setTitle('Page two');
-
-const embedArray = [embed1, embed2];
-const emojiArray = ['◀️', '▶️']; //this is the default but you can change it
-
-SilverEasy.reactionMenu(message, embedArray, emojiArray);
+SilverEasy.chatBot(message, 'CHANNEL ID') //replace 'CHANNEL ID' with the channels id you want your chatbot to be responding in
 ```
-
-### .rps()
-
-```js
-const silverEasy = require('silver-easy');
-
-```
+#### Preview
+![github-small](https://cdn.discordapp.com/attachments/860380499792494632/860381102140031016/unknown.png)
