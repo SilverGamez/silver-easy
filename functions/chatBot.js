@@ -1,8 +1,8 @@
 const fetch = require('node-fetch').default;
 
 async function chatBot(message, channelID) {
-    if(!message) throw new Error(`SilverEasy -> "message" is not defined. View example: `);
-    if(!channelID) throw new Error(`SilverEasy -> "channelID" is not defined. View example: `);
+    if(!message) throw new Error(`SilverEasy -> "message" is not defined. View example: https://github.com/SilverGamez/silver-easy#chatbot`);
+    if(!channelID) throw new Error(`SilverEasy -> "channelID" is not defined. View example: https://github.com/SilverGamez/silver-easy#chatbot`);
 
         if(message.channel.id === channelID){
             if(message.author.bot) return;
