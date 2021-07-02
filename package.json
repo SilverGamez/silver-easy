@@ -1,0 +1,32 @@
+{
+  "name": "silver-easy",
+  "version": "1.0.3",
+  "description": "A package for discord.js to make it easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Easy",
+    "Discord.js"
+  ],
+  "author": "SilverGamez",
+  "license": "ISC",
+  "dependencies": {
+    "discord-slider": "^1.1.6",
+    "discord.js": "^12.5.3",
+    "discord.js-pagination": "^1.0.3",
+    "node-fetch": "^2.6.1",
+    "quick.db": "^7.1.3",
+    "reconlx": "^1.3.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilverGamez/silver-easy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SilverGamez/silver-easy/issues"
+  },
+  "homepage": "https://github.com/SilverGamez/silver-easy#readme"
+}
